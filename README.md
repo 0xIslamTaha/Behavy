@@ -38,11 +38,22 @@ behave <feature_path>
 
 **Change base url**
 
-You can change the base urls here or you can send BASE_URL as a context parameter.
+You can change the base urls in https://github.com/islamTaha12/behave-propertyfinder/blob/master/features/environment.py#L7 or you can send BASE_URL as a context parameter.
 
 **Reports**
 
 All the required data can be found in **behave-propertyfinder/reports** and you can generate xml results by using **--junit** behave options.
+
+*** - First agent info: ***
+https://github.com/islamTaha12/behave-propertyfinder/blob/master/reports/1492904453/Marina%20Berdnikova
+
+*** - Price List: ***
+https://github.com/islamTaha12/behave-propertyfinder/blob/master/reports/1492904453/priceList.csv
+
+*** - ScreenShots: ***
+https://github.com/islamTaha12/behave-propertyfinder/blob/master/reports/1492904453/7f48ea1f.png
+https://github.com/islamTaha12/behave-propertyfinder/blob/master/reports/1492904453/d1093ef1.png
+
 
 **Results**
 ```bash
