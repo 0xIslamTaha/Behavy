@@ -19,7 +19,7 @@ def step_impl(context):
 
 @step(u'Sort the villas from maximum price to lowest price')
 def step_impl(context):
-    context.home_page_qa.sort_results(by='price_low')
+    context.home_page_qa.sort_results(by='price_high')
 
 @step(u'Fetch all the prices of the listing and save it in a csv')
 def step_impl(context):

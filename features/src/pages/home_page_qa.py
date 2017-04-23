@@ -34,7 +34,7 @@ class HomePageQA(BaseTest):
 
     def sort_results(self, by):
         self.click(element='sort_results')
-        self.click(element='price_low')
+        self.click(element='price_high')
         self.firefox_wait()
 
     def get_results_info(self):

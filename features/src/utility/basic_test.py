@@ -66,6 +66,7 @@ class BaseTest(object):
         os.chdir(path)
         with open(file_name, 'w') as report:
             report_write = csv.writer(report, quoting=csv.QUOTE_ALL)
+            report_write.writerow(['Title', 'Price'])
             for row in data:
                 report_write.writerow(row)
         os.chdir('..')

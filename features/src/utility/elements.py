@@ -11,7 +11,7 @@ elements = {
     'city': ['NAME', 'q', 0],
     'is_result': ['XPATH', '//*[@id="serp-nav"]/div[2]/div[2]'],
     'sort_results': ['XPATH', '//*[@id="serp-nav"]/div[1]/div/div/button'],
-    'price_low': ['XPATH', '//*[@id="serp-nav"]/div[1]/div/div/div/ul/li[3]'],
+    'price_high': ['XPATH', '//*[@id="serp-nav"]/div[1]/div/div/div/ul/li[4]'],
     'smart_ads': ['CLASS_NAME', 'smart-ads-list', 0],
     'results_section': ['ID', 'serp'],
     'results_data_list': ['CLASS_NAME', 'listing-content', -1],
