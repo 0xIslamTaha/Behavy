@@ -49,7 +49,7 @@ You can change the base urls [here](https://github.com/islamTaha12/behave-proper
 
 **2- Price List:**
 
-[Price List ](https://github.com/islamTaha12/behave-propertyfinder/blob/master/reports/1492904453/priceList.csv()
+[Price List ](https://github.com/islamTaha12/behave-propertyfinder/blob/master/reports/1492904453/priceList.csv)
 
 **3- ScreenShots:**
 
