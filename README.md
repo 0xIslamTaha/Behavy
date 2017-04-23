@@ -1,12 +1,12 @@
 This is an implementation of some testing scenarios using  **behave**  as a BDD python framework.
 
-**Pre-requestes:**
+## Pre-requestes:
 - Python3
 - Chrome (tested with Chromium 55.0.2883.87 Built on Ubuntu , running on Ubuntu 16.04)
 - Firefox (tested with Mozilla Firefox 53.0.0)
 - GeckoDriver (testd with geckodriver 0.16.0)
 
-**Installation:**
+## Installation:
 ```bash
 apt-get install xvfp
 git clone git@github.com:islamTaha12/behave-propertyfinder.git
@@ -14,8 +14,7 @@ cd behave-propertyfinder
 pip3 install -r requirements.txt
 ```
 
-**Execution modes:**
-
+## Execution modes:
 1- Run all features using chrome
 ```bash
 behave
@@ -36,29 +35,31 @@ behave -D HEADLESS_MODE=true
 behave <feature_path>
 ```
 
-**Change base url**
+## Change base url:
 
-You can change the base urls in https://github.com/islamTaha12/behave-propertyfinder/blob/master/features/environment.py#L7 or you can send BASE_URL as a context parameter.
+You can change the base urls [here](https://github.com/islamTaha12/behave-propertyfinder/blob/master/features/environment.py#L7) or you can send BASE_URL as a context parameter.
 
-**Reports**
+## Reports
+
+**1- First agent info:**
+
+[The First agent info](https://github.com/islamTaha12/behave-propertyfinder/blob/master/reports/1492904453/Marina%20Berdnikova)
+
+**2- Price List:**
+
+[Price List ](https://github.com/islamTaha12/behave-propertyfinder/blob/master/reports/1492904453/priceList.csv()
+
+**3- ScreenShots:**
+
+[Screenshots_1](https://github.com/islamTaha12/behave-propertyfinder/blob/master/reports/1492904453/7f48ea1f.png)
+
+[Screenshots_1](https://github.com/islamTaha12/behave-propertyfinder/blob/master/reports/1492904453/d1093ef1.png)
+
 
 All the required data can be found in **behave-propertyfinder/reports** and you can generate xml results by using **--junit** behave options.
 
-**First agent info:**
 
-https://github.com/islamTaha12/behave-propertyfinder/blob/master/reports/1492904453/Marina%20Berdnikova
-
-**Price List:**
-
-https://github.com/islamTaha12/behave-propertyfinder/blob/master/reports/1492904453/priceList.csv
-
-**ScreenShots:**
-
-https://github.com/islamTaha12/behave-propertyfinder/blob/master/reports/1492904453/7f48ea1f.png
-https://github.com/islamTaha12/behave-propertyfinder/blob/master/reports/1492904453/d1093ef1.png
-
-
-**Results**
+## Results
 ```bash
  Before All
  Reports Dir: reports/1492904130
