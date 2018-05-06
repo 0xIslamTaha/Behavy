@@ -7,7 +7,7 @@ Behave is written in Python and is similar to Cucumber or lettuce. It is a nice 
 - Covering almost all Behave features.
 - Following page-object design pattern.
 - Nice usage of selenium web driver.
-- Running in visual and headless mode using xvfb tool.
+- Running in the visual mode and headless mode using xvfb tool.
 - Fit with almost all browsers.
 - Generating nice reports.
 
