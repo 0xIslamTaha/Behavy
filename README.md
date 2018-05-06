@@ -1,6 +1,25 @@
-# behave-propertyfinder
+# Behavy
+Do you wanna see a full use case fo Behave framework, Then I introduce Behavy for you. Behavy use almost all Behave features and It follows page-object design pattern. You can see a nice usage of Selenium.
 
-This is an implementation of some testing scenarios using  **behave**  as a BDD python framework.
+behave is written in Python and is similar to Cucumber or lettuce. It is a nice Behavior-Driven-Development python framework. 
+
+## Features:
+- Covering almost all Behave features.
+- Following page-object design pattern.
+- Nice usage of selenium web driver.
+- Running in visual and headless mode using xvfb tool.
+- Fit with almost all browsers.
+- Generating nice reports.
+
+
+## Get it on your machine:
+You just need to execute the following bash script to get Behavy on your machine.
+```bash
+apt-get install xvfp
+git clone https://github.com/islamTaha12/Behavy.git
+cd Behavy
+pip3 install -r requirements.txt
+```
 
 ## Pre-requestes:
 - Python3
@@ -8,13 +27,6 @@ This is an implementation of some testing scenarios using  **behave**  as a BDD 
 - Firefox (tested with Mozilla Firefox 53.0.0)
 - GeckoDriver (testd with geckodriver 0.16.0)
 
-## Installation:
-```bash
-apt-get install xvfp
-git clone git@github.com:islamTaha12/behave-propertyfinder.git
-cd behave-propertyfinder
-pip3 install -r requirements.txt
-```
 
 ## Execution modes:
 1- Run all features using chrome
@@ -37,11 +49,11 @@ behave -D HEADLESS_MODE=true
 behave <feature_path>
 ```
 
-## Change base url:
+## Change base URL:
 
-You can change the base urls [here](https://github.com/islamTaha12/behave-propertyfinder/blob/master/features/environment.py#L7) or you can send BASE_URL as a context parameter.
+You can change the base URLs [here](https://github.com/islamTaha12/behave-propertyfinder/blob/master/features/environment.py#L7) or you can send BASE_URL as a context parameter.
 
-## Reports
+## Reports:
 
 **1- First agent info:**
 
@@ -58,7 +70,7 @@ You can change the base urls [here](https://github.com/islamTaha12/behave-proper
 [Screenshots_1](https://github.com/islamTaha12/behave-propertyfinder/blob/master/reports/1492904453/d1093ef1.png)
 
 
-All the required data can be found in **behave-propertyfinder/reports** and you can generate xml results by using **--junit** behave options.
+All the required data can be found in **behave-propertyfinder/reports** and you can generate XML results by using **--junit** behave options.
 
 
 ## Results
