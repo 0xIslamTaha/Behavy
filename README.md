@@ -1,5 +1,5 @@
 # Behavy
-Do you wanna see a full use case fo Behave framework, Then I introduce Behavy for you. Behavy use almost all Behave features and It follows page-object design pattern. You can see a nice usage of Selenium.
+Do you wanna see a full use case to Behave framework, Then I introduce Behavy for you. Behavy use almost all Behave features and It follows page-object design pattern. You can see a nice usage of Selenium.
 
 behave is written in Python and is similar to Cucumber or lettuce. It is a nice Behavior-Driven-Development python framework. 
 
